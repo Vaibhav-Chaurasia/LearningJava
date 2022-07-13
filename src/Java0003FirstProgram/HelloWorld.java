@@ -1,4 +1,4 @@
-package Java003FirstProgram;
+package Java0003FirstProgram;
 
 public class HelloWorld {
 	public static void main(String[] args) {
