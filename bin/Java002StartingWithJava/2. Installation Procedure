@@ -1,0 +1,36 @@
+Installation Procedure
+NOTE - THIS NOTES IS BEST AS PER THE CURRENT REQUIREMENT, IN FUTURE ANY THING MAY CHANGE
+
+Setup Java
+1. Go to the Link - https://www.oracle.com/java/technologies/downloads/archive/
+2. Choose any version as per the requirement
+3. Download the version
+4. Install in the system
+
+Note - 
+1. For Version 10 or older, download JDK + JRE.
+2. For Versuib 11 or later, JRE has been removed
+
+
+Set the path
+For Windows 8 and above
+1. Open Environment variables
+2. Go to User Variable section -> Click on New Button and write
+	Variable Name - JAVA_HOME
+	Variable Value - C:\Program Files\Java\jdk-11.0.13 (For the reference)
+3. Click on OK button
+4. Now, Go to System variable section
+5. Search for variable "path"
+6. Double click on Path -> Click on new button
+7. Add the path - C:\Program Files\Java\jdk-11.0.13\bin (For the reference)
+8. Click on Ok for every window opens until all windows closed.
+
+Note - For more details and for other versions, follow the link - https://www.java.com/en/download/help/path.html
+
+
+Download and Install Eclipse
+1. Go to the link - https://www.eclipse.org/downloads/
+2. Download Eclipse IDE
+3. Double click on setup file
+4. Choose first option while installation
+5. Follow further instructions.
