@@ -1,4 +1,4 @@
-package Java0007Constants;
+package Java0006Constants;
 
 import java.util.Scanner;
 

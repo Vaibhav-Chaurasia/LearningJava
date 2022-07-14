@@ -1,4 +1,4 @@
-package Java0008Operators;
+package Java0007Operators;
 
 public class LogicalOperatorVsBitwiseOperator {
 
