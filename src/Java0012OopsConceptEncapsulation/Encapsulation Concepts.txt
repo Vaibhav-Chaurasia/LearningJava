@@ -1,0 +1,128 @@
+Encapsulation
+Binding (or wrapping) code and data together into a single unit are known as encapsulation. For example, a capsule, it is wrapped with different medicines.
+
+A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.
+
+
+Encapsulation in Java is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
+
+We can create a fully encapsulated class in Java by making all the data members of the class private. Now we can use setter and getter methods to set and get the data in it.
+
+The Java Bean class is the example of a fully encapsulated class.
+
+
+Advantage of Encapsulation in Java
+By providing only a setter or getter method, you can make the class read-only or write-only. In other words, you can skip the getter or setter methods.
+
+
+It provides you the control over the data. Suppose you want to set the value of id which should be greater than 100 only, you can write the logic inside the setter method. You can write the logic not to store the negative numbers in the setter methods.
+
+It is a way to achieve data hiding in Java because other class will not be able to access the data through the private data members.
+
+The encapsulate class is easy to test. So, it is better for unit testing.
+
+The standard IDE's are providing the facility to generate the getters and setters. So, it is easy and fast to create an encapsulated class in Java.
+
+
+Read-Only class
+//A Java class which has only getter methods.  
+public class Student{  
+//private data member  
+private String college="AKG";  
+//getter method for college  
+public String getCollege(){  
+return college;  
+}  
+}
+
+Now, you can't change the value of the college data member which is "AKG".
+
+s.setCollege("KITE");//will render compile time error  
+
+
+Write-Only class
+//A Java class which has only setter methods.  
+public class Student{  
+//private data member  
+private String college;  
+//getter method for college  
+public void setCollege(String college){  
+this.college=college;  
+}  
+}
+
+
+Now, you can't get the value of the college, you can only change the value of college data member.
+
+System.out.println(s.getCollege());//Compile Time Error, because there is no such method  
+System.out.println(s.college);//Compile Time Error, because the college data member is private.   
+//So, it can't be accessed from outside the class
+
+
+Another Example of Encapsulation in Java
+Let's see another example of encapsulation that has only four fields with its setter and getter methods.
+
+//A Account class which is a fully encapsulated class.  
+//It has a private data member and getter and setter methods.  
+class Account {  
+//private data members  
+private long acc_no;  
+private String name,email;  
+private float amount;  
+//public getter and setter methods  
+public long getAcc_no() {  
+    return acc_no;  
+}  
+public void setAcc_no(long acc_no) {  
+    this.acc_no = acc_no;  
+}  
+public String getName() {  
+    return name;  
+}  
+public void setName(String name) {  
+    this.name = name;  
+}  
+public String getEmail() {  
+    return email;  
+}  
+public void setEmail(String email) {  
+    this.email = email;  
+}  
+public float getAmount() {  
+    return amount;  
+}  
+public void setAmount(float amount) {  
+    this.amount = amount;  
+}  
+  
+}
+
+
+
+Access Modifiers in Java
+There are two types of modifiers in Java: 
+- access modifiers
+- non-access modifiers.
+
+The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.
+
+There are four types of Java access modifiers:
+- Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+
+- Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+
+- Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+
+- Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+
+There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient, etc.
+
+
+Understanding Java Access Modifiers
+Let's understand the access modifiers in Java by a simple table.
+
+Access Modifier	within class	within package	outside package by subclass only	outside package
+Private			Y				N				N									N
+Default			Y				Y				N									N
+Protected		Y				Y				Y									N
+Public			Y				Y				Y									Y
