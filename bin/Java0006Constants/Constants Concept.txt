@@ -1,0 +1,41 @@
+What is constant?
+Constant is a value that cannot be changed after assigning it. Java does not directly support the constants. There is an alternative way to define the constants in Java by using the non-access modifiers static and final.
+
+How to declare constant in Java?
+In Java, to declare any variable as constant, we use static and final modifiers. It is also known as non-access modifiers. According to the Java naming convention the identifier name must be in capital letters.
+
+Static and Final Modifiers
+- The purpose to use the static modifier is to manage the memory.
+- It also allows the variable to be available without loading any instance of the class in which it is defined.
+- The final modifier represents that the value of the variable cannot be changed. It also makes the primitive data type immutable or unchangeable.
+
+The syntax to declare a constant is as follows:
+static final datatype identifier_name = value;  
+
+For example, price is a variable that we want to make constant.
+static final double PRICE=432.78;  
+
+Where static and final are the non-access modifiers. The double is the data type and PRICE is the identifier name in which the value 432.78 is assigned.
+
+In the above statement, the static modifier causes the variable to be available without an instance of its defining class being loaded and the final modifier makes the variable fixed.
+
+
+
+Here a question arises that why we use both static and final modifiers to declare a constant?
+If we declare a variable as static, all the objects of the class (in which constant is defined) will be able to access the variable and can be changed its value. To overcome this problem, we use the final modifier with a static modifier.
+
+When the variable defined as final, the multiple instances of the same constant value will be created for every different object which is not desirable.
+
+When we use static and final modifiers together, the variable remains static and can be initialized once. Therefore, to declare a variable as constant, we use both static and final modifiers. It shares a common memory location for all objects of its containing class.
+
+
+
+Why we use constants?
+The use of constants in programming makes the program easy and understandable which can be easily understood by others. It also affects the performance because a constant variable is cached by both JVM and the application.
+
+
+Points to Remember:
+- Write the identifier name in capital letters that we want to declare as constant. 
+For example, MAX=12.
+- If we use the private access-specifier before the constant name, the value of the constant cannot be changed in that particular class.
+- If we use the public access-specifier before the constant name, the value of the constant can be changed in the program.
