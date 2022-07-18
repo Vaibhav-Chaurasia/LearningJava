@@ -1,0 +1,211 @@
+Polymorphism
+If one task is performed in different ways, it is known as polymorphism. For example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
+
+In Java, we use method overloading and method overriding to achieve polymorphism.
+
+Polymorphism in Java is a concept by which we can perform a single action in different ways. Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism. We can perform polymorphism in java by method overloading and method overriding.
+
+If you overload a static method in Java, it is the example of compile time polymorphism. Here, we will focus on runtime polymorphism in java.
+
+Another example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.
+
+
+Method Overriding in Java
+If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+
+In other words, If a subclass provides the specific implementation of the method that has been declared by one of its parent class, it is known as method overriding.
+
+Usage of Java Method Overriding
+- Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
+- Method overriding is used for runtime polymorphism
+
+Rules for Java Method Overriding
+- The method must have the same name as in the parent class
+- The method must have the same parameter as in the parent class.
+- There must be an IS-A relationship (inheritance).
+
+Java method overriding is mostly used in Runtime Polymorphism
+
+
+Can we override static method?
+No, a static method cannot be overridden. It can be proved by runtime polymorphism, so we will learn it later.
+
+
+Why can we not override static method?
+It is because the static method is bound with class whereas instance method is bound with an object. Static belongs to the class area, and an instance belongs to the heap area.
+
+
+Can we override java main method?
+No, because the main is a static method.
+
+
+
+Difference between method overloading and method overriding in java
+1)	Method overloading is used to increase the readability of the program.
+Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
+
+2)	Method overloading is performed within class.
+Method overriding occurs in two classes that have IS-A (inheritance) relationship.
+
+3)	In case of method overloading, parameter must be different.
+In case of method overriding, parameter must be same.
+
+4)	Method overloading is the example of compile time polymorphism.
+Method overriding is the example of run time polymorphism.
+
+5)	In java, method overloading can't be performed by changing return type of the method only. Return type can be same or different in method overloading. But you must have to change the parameter.
+Return type must be same or covariant in method overriding.
+
+
+
+Final Keyword In Java
+The final keyword in java is used to restrict the user. The java final keyword can be used in many context. 
+
+Final can be:
+- variable
+- method
+- class
+
+The final keyword can be applied with the variables, a final variable that have no value it is called blank final variable or uninitialized final variable. It can be initialized in the constructor only. The blank final variable can be static also which will be initialized in the static block only.
+
+
+1) Java final variable
+If you make any variable as final, you cannot change the value of final variable(It will be constant).
+
+2) Java final method
+If you make any method as final, you cannot override it.
+
+3) Java final class
+If you make any class as final, you cannot extend it.
+
+
+Q) Is final method inherited?
+Yes, final method is inherited but you cannot override it.
+
+
+Q) What is blank or uninitialized final variable?
+A final variable that is not initialized at the time of declaration is known as blank final variable.
+
+If you want to create a variable that is initialized at the time of creating object and once initialized may not be changed, it is useful. For example PAN CARD number of an employee.
+
+It can be initialized only in constructor.
+
+
+
+Q) Can we initialize blank final variable?
+Yes, but only in constructor.
+
+
+
+Static blank final variable
+A static final variable that is not initialized at the time of declaration is known as static blank final variable. It can be initialized only in static block.
+
+
+Q) What is final parameter?
+If you declare any parameter as final, you cannot change the value of it.
+
+
+Q) Can we declare a constructor final?
+No, because constructor is never inherited.
+
+
+
+Runtime Polymorphism in Java
+Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+
+
+In this process, an overridden method is called through the reference variable of a superclass. The determination of the method to be called is based on the object being referred to by the reference variable.
+
+Let's first understand the upcasting before Runtime Polymorphism.
+
+Upcasting
+If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
+
+For example:
+Upcasting in Java
+class A{}  
+class B extends A{}  
+A a=new B();//upcasting  
+
+For upcasting, we can use the reference variable of class type or an interface type. 
+
+For Example:
+interface I{}  
+class A{}  
+class B extends A implements I{}  
+Here, the relationship of B class would be:
+
+- B IS-A A
+- B IS-A I
+- B IS-A Object
+
+Since Object is the root class of all classes in Java, so we can write B IS-A Object.
+
+
+Java Runtime Polymorphism
+Method invocation is determined by the JVM not compiler, it is known as runtime polymorphism.
+
+
+Java Runtime Polymorphism with Data Member
+A method is overridden, not the data members, so runtime polymorphism can't be achieved by data members.
+
+In the example given below, both the classes have a data member speedlimit. We are accessing the data member by the reference variable of Parent class which refers to the subclass object. Since we are accessing the data member which is not overridden, hence it will access the data member of the Parent class always.
+
+Rule: Runtime polymorphism can't be achieved by data members.
+
+
+Java Runtime Polymorphism with Multilevel Inheritance Example given in code
+
+
+Static Binding and Dynamic Binding
+Connecting a method call to the method body is known as binding.
+
+There are two types of binding
+- Static Binding (also known as Early Binding)
+When type of the object is determined at compiled time, it is known as static binding.
+
+- Dynamic Binding (also known as Late Binding)
+When type of the object is determined at run-time, it is known as dynamic binding.
+
+
+Understanding Type
+Let's understand the type of instance.
+
+1) variables have a type
+Each variable has a type, it may be primitive and non-primitive.
+
+int data=30;
+Here data variable is a type of int.
+
+
+2) References have a type
+class Dog{  
+ public static void main(String args[]){  
+  Dog d1;//Here d1 is a type of Dog  
+ }  
+}
+
+
+3) Objects have a type
+An object is an instance of particular java class,but it is also an instance of its superclass.
+class Animal{}  
+  
+class Dog extends Animal{  
+ public static void main(String args[]){  
+  Dog d1=new Dog();  
+ }  
+}
+
+Here d1 is an instance of Dog class, but it is also an instance of Animal.
+
+
+Static binding
+When type of the object is determined at compiled time(by the compiler), it is known as static binding.
+
+If there is any private, final or static method in a class, there is static binding.
+
+
+Dynamic binding
+When type of the object is determined at run-time, it is known as dynamic binding.
