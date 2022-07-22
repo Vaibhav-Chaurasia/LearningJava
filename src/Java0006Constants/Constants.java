@@ -14,9 +14,9 @@ public class Constants {
 		
 		System.out.print("Enter the number of units you have used: ");  
 		
-		Scanner sc=new Scanner(System.in);  
+		Scanner sc = new Scanner(System.in);  
 		unit = sc.nextInt();  
-		total_bill=PRICE*unit*RATE;  
+		total_bill = PRICE * unit * RATE;  
 		
 		System.out.println("The total amount you have to deposit is: "+total_bill);
 		sc.close();
