@@ -40,3 +40,13 @@ The automatic conversion of wrapper type into its corresponding primitive type i
 
 Custom Wrapper class in Java
 Java Wrapper classes wrap the primitive data types, that is why it is known as wrapper classes. We can also create a class which wraps a primitive data type. So, we can create a custom wrapper class in Java.
+
+
+Java Convert String to int, long, double, float
+Scenario
+It is generally used if we have to perform mathematical operations on the string which contains a number. Whenever we receive data from TextField or TextArea, entered data is received as a string. If entered data is in number format, we need to convert the string to an int. To do so, we use Integer.parseInt() method.
+
+
+Java Convert int, long, double, float to String
+Scenario
+It is generally used if we have to display number in textfield because everything is displayed as a string in form.
