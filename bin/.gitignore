@@ -1,5 +1,3 @@
-/Java0012OopsConceptObjectsAndClasses/
-/Java0013OopsConceptEncapsulation/
 /Java0014OopsConceptEncapsulation1/
 /Java0015OopsConceptInheritance/
 /Java0016OopsConceptAbstraction/
@@ -9,6 +7,8 @@
 /Java0020ExceptionalHandling/
 /Java0021FileHandling/
 /Java0022Miscellaneous/
+/Java0023Conversion/
+/Java0024CollectionListAndHashes/
 /Java0003FirstProgram/
 /Java0004DataTypes/
 /Java0005Variables/
@@ -18,4 +18,5 @@
 /Java0009LoopStatements/
 /Java0010JumpStatements/
 /Java0011MethodsCreatingAndCalling/
-/Java0023Conversion/
+/Java0012OopsConceptObjectsAndClasses/
+/Java0013OopsConceptEncapsulation/
