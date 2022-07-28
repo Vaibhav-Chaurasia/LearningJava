@@ -26,29 +26,29 @@ public class IfElseIfLadderStatement {
 
 
 		//It is a program of grading system for fail, D grade, C grade, B grade, A grade and A+.  
-		int marks=65;
+		int marks = 65;
 
-		if(marks<50){  
+		if(marks < 50){  
 			System.out.println("fail");  
 		}  
 
-		else if(marks>=50 && marks<60){  
+		else if(marks >= 50 && marks < 60){  
 			System.out.println("D grade");  
 		}  
 
-		else if(marks>=60 && marks<70){  
+		else if(marks >= 60 && marks < 70){  
 			System.out.println("C grade");  
 		}  
 
-		else if(marks>=70 && marks<80){  
+		else if(marks >= 70 && marks < 80){  
 			System.out.println("B grade");  
 		}  
 
-		else if(marks>=80 && marks<90){  
+		else if(marks >= 80 && marks < 90){  
 			System.out.println("A grade");  
 		}
 
-		else if(marks>=90 && marks<100){  
+		else if(marks >= 90 && marks < 100){  
 			System.out.println("A+ grade");  
 		}
 
@@ -59,13 +59,13 @@ public class IfElseIfLadderStatement {
 
 
 		//Program to check POSITIVE, NEGATIVE or ZERO
-		int number=-13;    
+		int number =- 13;    
 
-		if(number>0){  
+		if(number > 0){  
 			System.out.println("POSITIVE");  
 		}
 
-		else if(number<0){  
+		else if(number < 0){  
 			System.out.println("NEGATIVE");  
 		}
 

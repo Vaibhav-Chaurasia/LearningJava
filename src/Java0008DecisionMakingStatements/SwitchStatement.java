@@ -2,7 +2,7 @@ package Java0008DecisionMakingStatements;
 
 public class SwitchStatement {
 
-	public enum Day {  Sun, Mon, Tue, Wed, Thu, Fri, Sat  }
+	public enum Day {Sun, Mon, Tue, Wed, Thu, Fri, Sat}
 
 	public static void main(String[] args) {
 
@@ -80,6 +80,7 @@ public class SwitchStatement {
 
 		//Switch Vowel
 		char ch='O';
+		
 		switch(ch)
 		{
 		case 'a':
@@ -148,21 +149,22 @@ public class SwitchStatement {
 
 		//Java Program to demonstrate the use of Java Switch statement with String
 		//Declaring String variable
-		String levelString="Expert";
-		int level=0;
+		String levelString = "Expert";
+		int level = 0;
 		//Using String in Switch expression
 		switch(levelString){
 		//Using String Literal in Switch case
-		case "Beginner": level=1;
+		case "Beginner": level = 1;
 		break;
-		case "Intermediate": level=2;
+		case "Intermediate": level = 2;
 		break;
-		case "Expert": level=3;
+		case "Expert": level = 3;
 		break;
-		default: level=0;
+		default: level = 0;
 		break;
 		}
-		System.out.println("Your Level is: "+level);
+		
+		System.out.println("Your Level is: " + level);
 
 
 
@@ -171,14 +173,14 @@ public class SwitchStatement {
 		//C - CSE, E - ECE, M - Mechanical  
 		char branch = 'C';                 
 		int collegeYear = 4;  
-		switch( collegeYear )  
+		switch(collegeYear)  
 		{  
 		case 1:  
 			System.out.println("English, Maths, Science");  
 			break;  
 
 		case 2:  
-			switch( branch )   
+			switch(branch)   
 			{  
 
 			case 'C':  
@@ -196,7 +198,7 @@ public class SwitchStatement {
 			break;  
 
 		case 3:  
-			switch( branch )   
+			switch(branch)   
 			{  
 			case 'C':  
 				System.out.println("Computer Organization, MultiMedia");  
@@ -213,7 +215,7 @@ public class SwitchStatement {
 			break;  
 
 		case 4:  
-			switch( branch )   
+			switch(branch)   
 			{  
 			case 'C':  
 				System.out.println("Data Communication and Networks, MultiMedia");  
@@ -294,5 +296,4 @@ public class SwitchStatement {
 			break;  
 		} 
 	}
-
 }

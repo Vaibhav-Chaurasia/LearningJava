@@ -46,6 +46,7 @@ public class NestedIfStatement {
 		//Creating two variables for age and weight    
 		int agee = 25;    
 		int weightt = 48;      
+		
 		//applying condition on age and weight    
 		if(agee >= 18){      
 			if(weightt > 50){    
@@ -58,7 +59,7 @@ public class NestedIfStatement {
 		} 
 		
 		else{  
-			System.out.println("Age must be greater than 18");  
+			System.out.println("Age must be less than 18");  
 		}  
 	}
 }
