@@ -7,6 +7,7 @@ public class DoWhileLoopStatement {
 		//Do while example
 		int i = 0;    
 		System.out.println("Printing the list of first 10 even numbers \n");    
+
 		do {    
 			System.out.println(i);    
 			i = i + 2;    
@@ -15,6 +16,7 @@ public class DoWhileLoopStatement {
 
 		//Do while example
 		int j = 1;    
+
 		do{    
 			System.out.println(j);    
 			j++;    
@@ -25,8 +27,6 @@ public class DoWhileLoopStatement {
 		//Do while infinite program
 		do{  
 			System.out.println("infinitive do while loop");  
-		}while(true);  
-
+		}while(true);
 	}
-
 }

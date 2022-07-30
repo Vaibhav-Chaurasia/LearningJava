@@ -80,7 +80,7 @@ public class SwitchStatement {
 
 		//Switch Vowel
 		char ch='O';
-		
+
 		switch(ch)
 		{
 		case 'a':
@@ -163,7 +163,7 @@ public class SwitchStatement {
 		default: level = 0;
 		break;
 		}
-		
+
 		System.out.println("Your Level is: " + level);
 
 
