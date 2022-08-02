@@ -18,7 +18,7 @@ class A{
 	void n(){  
 		System.out.println("hello n");  
 		
-		//m();//same as this.m()  
+		//m(); //same as this.m()  
 		this.m();  
 	}  
 }

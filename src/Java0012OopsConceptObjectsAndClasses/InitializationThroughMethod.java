@@ -11,8 +11,8 @@ public class InitializationThroughMethod {
 		InitializationThroughMethod s1 = new InitializationThroughMethod();  
 		InitializationThroughMethod s2 = new InitializationThroughMethod();  
 
-		s1.insertRecord(111,"Karan");  
-		s2.insertRecord(222,"Aryan");  
+		s1.insertRecord(111, "Karan");  
+		s2.insertRecord(222, "Aryan");  
 
 		s1.displayInformation();  
 		s2.displayInformation();  
@@ -24,6 +24,6 @@ public class InitializationThroughMethod {
 	}
 
 	void displayInformation(){
-		System.out.println(rollno+" "+name);
+		System.out.println(rollno + " " + name);
 	}
 }
