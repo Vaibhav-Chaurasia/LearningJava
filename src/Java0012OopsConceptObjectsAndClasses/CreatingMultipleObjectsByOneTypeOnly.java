@@ -7,7 +7,7 @@ public class CreatingMultipleObjectsByOneTypeOnly {
 
 	public static void main(String args[]){  
 		CreatingMultipleObjectsByOneTypeOnly r1 = new CreatingMultipleObjectsByOneTypeOnly(),
-				r2 = new CreatingMultipleObjectsByOneTypeOnly();//creating two objects  
+				r2 = new CreatingMultipleObjectsByOneTypeOnly(); //creating two objects  
 
 		r1.insert(11,5);  
 		r2.insert(3,15);  
