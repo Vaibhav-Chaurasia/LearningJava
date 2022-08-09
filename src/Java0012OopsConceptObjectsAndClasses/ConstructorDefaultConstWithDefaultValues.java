@@ -15,8 +15,8 @@ public class ConstructorDefaultConstWithDefaultValues {
 
 	public static void main(String args[]){  
 		//creating objects  
-		ConstructorDefaultConstWithDefaultValues s1=new ConstructorDefaultConstWithDefaultValues();  
-		ConstructorDefaultConstWithDefaultValues s2=new ConstructorDefaultConstWithDefaultValues();  
+		ConstructorDefaultConstWithDefaultValues s1 = new ConstructorDefaultConstWithDefaultValues();  
+		ConstructorDefaultConstWithDefaultValues s2 = new ConstructorDefaultConstWithDefaultValues();  
 
 		//displaying values of the object  
 		s1.display();  

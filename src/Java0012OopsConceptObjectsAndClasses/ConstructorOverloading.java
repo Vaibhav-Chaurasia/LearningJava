@@ -20,7 +20,7 @@ public class ConstructorOverloading {
 	}
 
 	void display(){
-		System.out.println(id + " " + name + " "+age);
+		System.out.println(id + " " + name + " " + age);
 	}  
 
 	public static void main(String args[]){  
