@@ -5,6 +5,7 @@ public class MethodAbstractMethodExample {
 	{  
 		//creating object of abstract class  
 		Demo obj = new MyClass();  
+		
 		//invoking abstract method  
 		obj.display();  
 	}
@@ -23,6 +24,5 @@ class MyClass extends Demo
 	void display()  
 	{  
 		System.out.println("Abstract method?");
-	}  
-
+	}
 }

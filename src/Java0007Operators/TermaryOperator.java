@@ -13,10 +13,8 @@ public class TermaryOperator {
 		int minimum = (x < y) ? x : y;  
 		System.out.println(minimum);
 
-
 		int number=13;
-		String output = (number % 2 == 0)?"even number":"odd number";    
+		String output = (number % 2 == 0) ? "even number" : "odd number";    
 		System.out.println(output);  
 	}
-
 }

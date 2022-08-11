@@ -17,7 +17,7 @@ public class ifElseStatement {
 
 
 		//Program to check even or odd.
-		int number=13;  
+		int number = 13;  
 
 		//Check if the number is divisible by 2 or not  
 		if(number % 2 == 0){  
@@ -30,7 +30,7 @@ public class ifElseStatement {
 
 
 		//Leap year program
-		int year=2020;    
+		int year = 2020;    
 
 		if(((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)){  
 			System.out.println("LEAP YEAR");  

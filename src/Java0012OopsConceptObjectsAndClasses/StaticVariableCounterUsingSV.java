@@ -21,7 +21,7 @@ class Counter2{
 	static int count = 0;//will get memory only once and retain its value  
 
 	Counter2(){  
-		count++;//incrementing the value of static variable  
+		count++; //incrementing the value of static variable  
 		System.out.println(count);  
 	}
 }

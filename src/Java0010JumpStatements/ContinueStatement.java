@@ -39,7 +39,7 @@ public class ContinueStatement {
 					//using continue statement inside inner loop  
 					continue;    
 				}    
-				System.out.println(i+" "+j);    
+				System.out.println(i + " " + j);
 			}    
 		}
 
@@ -54,7 +54,7 @@ public class ContinueStatement {
 							//using continue statement with label  
 							continue aa;    
 						}    
-						System.out.println(i+" "+j);    
+						System.out.println(i + " " + j);
 					}    
 			}
 
@@ -88,5 +88,4 @@ public class ContinueStatement {
 			j++;  
 		}while(j <= 10);
 	}
-
 }

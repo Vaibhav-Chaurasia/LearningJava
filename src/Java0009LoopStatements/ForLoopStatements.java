@@ -58,5 +58,4 @@ public class ForLoopStatements {
 			System.out.println("infinitive loop");  
 		}  
 	}
-
 }

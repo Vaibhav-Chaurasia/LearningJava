@@ -13,6 +13,6 @@ public class ObjectClassAnonymousObject {
 	
 	
 	public static void main(String args[]){  
-		new ObjectClassAnonymousObject().fact(5);//calling method with anonymous object  
+		new ObjectClassAnonymousObject().fact(5); //calling method with anonymous object  
 	}  
 }

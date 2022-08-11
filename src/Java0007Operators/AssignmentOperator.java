@@ -26,8 +26,8 @@ public class AssignmentOperator {
 		
 		//short d=10;  
 		//short e=10;  
-		//d+=e;//d=d+e internally so fine  
-		//d=d+e;//Compile time error because 10+10=20 now int  
+		//d+=e; //d=d+e internally so fine  
+		//d=d+e; //Compile time error because 10+10=20 now int  
 		//System.out.println(a);  
 		
 		//After type cast:
@@ -36,5 +36,4 @@ public class AssignmentOperator {
 		d = (short)(d + e);//20 which is int now converted to short  
 		System.out.println(d);  
 	}
-
 }

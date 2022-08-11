@@ -9,8 +9,8 @@ public class LogicalOperatorVsBitwiseOperator {
 		int a = 10;  
 		int b = 5;  
 		int c = 20;  
-		System.out.println(a < b && a < c);//false && true = false (Logical Operator)
-		System.out.println(a < b & a < c);//false & true = false  (Bitwise Operator)
+		System.out.println(a < b && a < c); //false && true = false (Logical Operator)
+		System.out.println(a < b & a < c); //false & true = false  (Bitwise Operator)
 
 
 		int d = 10;  
@@ -47,5 +47,4 @@ public class LogicalOperatorVsBitwiseOperator {
         System.out.println("!(x < y) = " + !(x < y));
         System.out.println("!(x > y) = " + !(x > y));
 	}
-
 }

@@ -17,6 +17,5 @@ public class VariablesCannotUseBeforeDeclaration2 {
 		} // The block ends here
 
 		// Code here CANNOT use x
-
 	}
 }

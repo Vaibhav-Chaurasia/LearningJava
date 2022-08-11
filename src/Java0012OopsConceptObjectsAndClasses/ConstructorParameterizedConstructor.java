@@ -25,5 +25,4 @@ public class ConstructorParameterizedConstructor {
 		s1.display();  
 		s2.display();  
 	}
-
 }

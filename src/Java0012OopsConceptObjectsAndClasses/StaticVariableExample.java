@@ -3,8 +3,8 @@ package Java0012OopsConceptObjectsAndClasses;
 public class StaticVariableExample {
 
 	public static void main(String args[]){  
-		Student s1 = new Student(111,"Karan");  
-		Student s2 = new Student(222,"Aryan");  
+		Student s1 = new Student(111, "Karan");  
+		Student s2 = new Student(222, "Aryan");  
 
 		//we can change the college of all objects by the single line of code  
 		//Student.college="BBDIT";  
@@ -16,7 +16,7 @@ public class StaticVariableExample {
 
 //Java Program to demonstrate the use of static variable  
 class Student{  
-	int rollno;//instance variable  
+	int rollno; //instance variable  
 	String name;  
 	static String college = "ITS";//static variable  
 

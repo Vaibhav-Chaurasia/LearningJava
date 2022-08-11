@@ -20,6 +20,5 @@ public class Constants {
 		
 		System.out.println("The total amount you have to deposit is: "+total_bill);
 		sc.close();
-	}  
-
+	}
 }

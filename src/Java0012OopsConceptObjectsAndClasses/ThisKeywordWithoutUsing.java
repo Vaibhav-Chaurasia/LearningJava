@@ -3,8 +3,8 @@ package Java0012OopsConceptObjectsAndClasses;
 public class ThisKeywordWithoutUsing {
 
 	public static void main(String args[]){  
-		Student2 s1 = new Student2(111,"ankit",5000f);  
-		Student2 s2 = new Student2(112,"sumit",6000f);  
+		Student2 s1 = new Student2(111, "ankit", 5000f);  
+		Student2 s2 = new Student2(112, "sumit", 6000f);  
 		
 		s1.display();  
 		s2.display();  
@@ -18,9 +18,9 @@ class Student2{
 	float fee;  
 	
 	Student2(int rollno, String name, float fee){  
-		rollno = rollno;  
-		name = name;  
-		fee = fee;  
+		this.rollno = rollno;  
+		this.name = name;  
+		this.fee = fee;  
 	}  
 
 	void display(){

@@ -39,23 +39,22 @@ public class DataTypesDeclaration {
 
 
 		/*Non - Primitive Data Types*/
-		String s="vaibhav";
+		String s = "vaibhav";
 		System.out.println(s);
 
 		//declaration and instantiation  of Array
-		int array[]=new int[5];
+		int array[] = new int[5];
 
 		//initialization
-		array[0]=10;  
-		array[1]=20;  
-		array[2]=70;  
-		array[3]=40;  
-		array[4]=50;
+		array[0] = 10;  
+		array[1] = 20;  
+		array[2] = 70;  
+		array[3] = 40;  
+		array[4] = 50;
 
 		//length is the property of array
 		for(int j = 0; j < array.length; j++)  {
 			System.out.println(array[j]);  
 		}
-
 	}
 }

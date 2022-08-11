@@ -17,5 +17,4 @@ public class BitwiseOperator {
         int  b  =  ~a; 
         System.out.println ("b  =  "  +  b); 
 	}
-
 }

@@ -3,8 +3,8 @@ package Java0012OopsConceptObjectsAndClasses;
 public class ThisKeywordNotUsedIfVariableDifferent {
 
 	public static void main(String args[]){  
-		Student4 s1 = new Student4(111,"ankit",5000f);  
-		Student4 s2 = new Student4(112,"sumit",6000f);  
+		Student4 s1 = new Student4(111, "ankit", 5000f);  
+		Student4 s2 = new Student4(112, "sumit", 6000f);  
 		
 		s1.display();  
 		s2.display();  

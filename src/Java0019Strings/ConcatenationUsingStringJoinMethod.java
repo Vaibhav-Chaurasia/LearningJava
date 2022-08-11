@@ -18,7 +18,7 @@ public class ConcatenationUsingStringJoinMethod {
 
 		/*-------------------------------------------------------------------------------------------------*/
 		//Join Example
-		String joinString1=String.join("-","welcome","to","javatpoint");  
+		String joinString1 = String.join("-","welcome","to","javatpoint");  
 		System.out.println(joinString1);
 		/*-------------------------------------------------------------------------------------------------*/
 
@@ -62,9 +62,5 @@ public class ConcatenationUsingStringJoinMethod {
 		str1 = String.join("India", null);  
 		System.out.println(str1);
 		/*-------------------------------------------------------------------------------------------------*/
-
-
-
 	}
 }
-

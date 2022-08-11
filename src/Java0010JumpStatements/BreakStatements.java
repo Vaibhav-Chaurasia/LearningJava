@@ -13,11 +13,12 @@ public class BreakStatements {
 		}  
 
 
+
 		//Break statement example
 		a:    
 			for(int i = 0; i <= 10; i++) {    
 				b:    
-					for(int j = 0; j<=15; j++) {    
+					for(int j = 0; j <= 15; j++) {    
 						c:    
 							for (int k = 0; k <= 20; k++) {    
 								System.out.println(k);    
@@ -42,6 +43,7 @@ public class BreakStatements {
 		}
 
 
+
 		//Break statement in nested for loop   
 		for(int i = 1; i <= 3; i++){    
 			//inner loop  
@@ -50,9 +52,10 @@ public class BreakStatements {
 					//using break statement inside the inner loop  
 					break;    
 				}    
-				System.out.println(i+" "+j);    
+				System.out.println(i + " " + j);
 			}    
 		} 
+
 
 
 		//Break statement with Labelled for loop
@@ -64,9 +67,10 @@ public class BreakStatements {
 							//using break statement with label  
 							break aa;    
 						}    
-						System.out.println(i+" "+j);    
+						System.out.println(i + " " + j);   
 					}    
 			}
+
 
 
 
@@ -115,6 +119,5 @@ public class BreakStatements {
 		default:
 			System.out.println(num);
 		}
-
 	}
 }

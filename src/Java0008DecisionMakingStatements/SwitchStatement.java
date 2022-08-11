@@ -27,47 +27,47 @@ public class SwitchStatement {
 
 
 		//Specifying month number
-		int month=7;
-		String monthString="";
+		int month = 7;
+		String monthString = "";
 
 		//Switch statement  
 		switch(month){
 
 		//case statements within the switch block
-		case 1: monthString="1 - January";
+		case 1: monthString = "1 - January";
 		break;
 
-		case 2: monthString="2 - February";
+		case 2: monthString = "2 - February";
 		break;
 
-		case 3: monthString="3 - March";
+		case 3: monthString = "3 - March";
 		break;
 
-		case 4: monthString="4 - April";
+		case 4: monthString = "4 - April";
 		break;
 
-		case 5: monthString="5 - May";
+		case 5: monthString = "5 - May";
 		break;
 
-		case 6: monthString="6 - June";
+		case 6: monthString = "6 - June";
 		break;
 
-		case 7: monthString="7 - July";
+		case 7: monthString = "7 - July";
 		break;
 
-		case 8: monthString="8 - August";
+		case 8: monthString = "8 - August";
 		break;
 
-		case 9: monthString="9 - September";
+		case 9: monthString = "9 - September";
 		break;
 
-		case 10: monthString="10 - October";
+		case 10: monthString = "10 - October";
 		break;
 
-		case 11: monthString="11 - November";
+		case 11: monthString = "11 - November";
 		break;
 
-		case 12: monthString="12 - December";
+		case 12: monthString = "12 - December";
 		break;
 
 		default:System.out.println("Invalid Month!");
@@ -78,6 +78,7 @@ public class SwitchStatement {
 
 
 
+		
 		//Switch Vowel
 		char ch='O';
 
@@ -115,7 +116,6 @@ public class SwitchStatement {
 			System.out.println("Vowel");
 			break;
 
-
 		case 'O':
 			System.out.println("Vowel");
 			break;
@@ -134,7 +134,7 @@ public class SwitchStatement {
 		//Java Switch Statement is fall-through
 		//Java Switch Example where we are omitting the  
 		//break statement
-		int number=20;
+		int number = 20;
 
 		//switch expression with int value  
 		switch(number){

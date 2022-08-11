@@ -28,8 +28,7 @@ public class UnaryOperator {
 		boolean d = false;  
 		System.out.println(~a1); //-11 (minus of total positive value which starts from 0)  
 		System.out.println(~b1); //9 (positive of total minus, positive starts from 0)  
-		System.out.println(!c);//false (opposite of boolean value)  
-		System.out.println(!d);//true  
+		System.out.println(!c); //false (opposite of boolean value)  
+		System.out.println(!d); //true  
 	}
-
 }
