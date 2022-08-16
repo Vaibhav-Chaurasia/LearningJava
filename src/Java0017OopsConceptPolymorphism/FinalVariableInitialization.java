@@ -2,7 +2,7 @@ package Java0017OopsConceptPolymorphism;
 
 public class FinalVariableInitialization {
 
-	final int speedlimit;//blank final variable  
+	final int speedlimit; //blank final variable  
 
 	FinalVariableInitialization(){  
 		speedlimit = 70;  

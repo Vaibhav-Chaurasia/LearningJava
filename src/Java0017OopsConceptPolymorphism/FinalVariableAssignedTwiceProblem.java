@@ -6,7 +6,7 @@ public class FinalVariableAssignedTwiceProblem {
 	 * but It can't be changed because final variable once assigned a value can never be changed.
 	 * */
 	
-	final int speedlimit = 90;//final variable  
+	final int speedlimit = 90; //final variable  
 	
 	void run(){  
 		speedlimit = 400;  

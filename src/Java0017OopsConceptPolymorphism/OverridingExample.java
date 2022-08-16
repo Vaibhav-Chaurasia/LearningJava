@@ -13,8 +13,8 @@ public class OverridingExample extends Vehicle1{
 	}  
 
 	public static void main(String args[]){  
-		OverridingExample obj = new OverridingExample();//creating object  
-		obj.run();//calling method  
+		OverridingExample obj = new OverridingExample(); //creating object  
+		obj.run(); //calling method  
 	}
 
 }
@@ -22,6 +22,7 @@ public class OverridingExample extends Vehicle1{
 //Java Program to illustrate the use of Java Method Overriding  
 //Creating a parent class.  
 class Vehicle1{  
+	
 	//defining a method  
 	void run(){
 		System.out.println("Vehicle is running");

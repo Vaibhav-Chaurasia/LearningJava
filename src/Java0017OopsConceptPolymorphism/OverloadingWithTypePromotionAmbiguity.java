@@ -12,6 +12,6 @@ public class OverloadingWithTypePromotionAmbiguity {
 	public static void main(String args[]){  
 		OverloadingWithTypePromotionAmbiguity obj=new OverloadingWithTypePromotionAmbiguity();  
 
-		obj.sum(20,20);//now ambiguity  
+		obj.sum(20, 20); //now ambiguity  
 	}
 }

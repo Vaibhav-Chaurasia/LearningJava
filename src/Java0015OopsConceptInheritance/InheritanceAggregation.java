@@ -2,8 +2,8 @@ package Java0015OopsConceptInheritance;
 
 public class InheritanceAggregation {
 	public static void main(String[] args) {  
-		Addresse address1=new Addresse("gzb","UP","india");
-		Addresse address2=new Addresse("gno","UP","india");
+		Addresse address1 = new Addresse("gzb","UP","india");
+		Addresse address2 = new Addresse("gno","UP","india");
 
 		Emp e = new Emp(111, "varun", address1);
 		Emp e2 = new Emp(112, "arun", address2);
@@ -14,7 +14,7 @@ public class InheritanceAggregation {
 }
 
 class Addresse {  
-	String city,state,country;  
+	String city, state, country;  
 
 	public Addresse(String city, String state, String country) {  
 		this.city = city;  
@@ -36,8 +36,8 @@ class Emp {
 	}  
 
 	void display(){  
-		System.out.println(id+" "+name);
-		System.out.println(address.city+" " + address.state + " " + address.country);
+		System.out.println(id + " " + name);
+		System.out.println(address.city + " " + address.state + " " + address.country);
 	}  
 
 

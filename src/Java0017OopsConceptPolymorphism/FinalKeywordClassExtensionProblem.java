@@ -7,7 +7,7 @@ public class FinalKeywordClassExtensionProblem extends Bike1{
 	}  
 
 	public static void main(String args[]){  
-		FinalKeywordClassExtensionProblem honda= new FinalKeywordClassExtensionProblem();  
+		FinalKeywordClassExtensionProblem honda = new FinalKeywordClassExtensionProblem();  
 		honda.run();  
 	}
 }

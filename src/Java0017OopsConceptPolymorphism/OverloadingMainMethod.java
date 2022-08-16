@@ -13,5 +13,4 @@ public class OverloadingMainMethod {
 	public static void main(){
 		System.out.println("main without args");
 	}
-
 }

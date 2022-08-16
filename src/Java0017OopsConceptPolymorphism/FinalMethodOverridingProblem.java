@@ -6,7 +6,7 @@ public class FinalMethodOverridingProblem extends Bike{
 	}  
 
 	public static void main(String args[]){  
-		FinalMethodOverridingProblem honda= new FinalMethodOverridingProblem();  
+		FinalMethodOverridingProblem honda = new FinalMethodOverridingProblem();  
 		honda.run();  
 	}
 }
