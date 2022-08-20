@@ -1,7 +1,7 @@
 package Java0017OopsConceptPolymorphism;
 
 public class RuntimePolymorphismWithDataMember extends Bike3{
-	int speedlimit = 150;  
+	int speedlimit = 150;
 
 	public static void main(String args[]){  
 		Bike3 obj = new RuntimePolymorphismWithDataMember();  
@@ -10,5 +10,5 @@ public class RuntimePolymorphismWithDataMember extends Bike3{
 }
 
 class Bike3{  
-	int speedlimit = 90;  
+	int speedlimit = 90;
 }
