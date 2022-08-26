@@ -10,8 +10,8 @@ It provides more accessibility than the default modifer.
 
 
 Example of protected access modifier
-In this example, we have created the two packages pack and mypack. 
-The A class of pack package is public, so can be accessed from outside the package. 
+In this example, we have created two packages Java0013OopsConceptEncapsulation and Java0014OopsConceptEncapsulation1.
+The EncapsulationProtectedClass class of pack package is public, so can be accessed from outside the package. 
 But msg method of this package is declared as protected, so it can be accessed 
 from outside the class only through inheritance.
  * */

@@ -3,7 +3,6 @@ package Java0016OopsConceptAbstraction;
 public class InterfaceDefaultMethodExample {
 	public static void main(String args[]){  
 		Drawable1 d = new Rectangle1();  
-		
 		d.draw();  
 		d.msg();  
 	}

@@ -7,7 +7,6 @@ public class InterfaceBankExample {
 	}
 }
 
-
 interface Bank1{  
 	float rateOfInterest();  
 }

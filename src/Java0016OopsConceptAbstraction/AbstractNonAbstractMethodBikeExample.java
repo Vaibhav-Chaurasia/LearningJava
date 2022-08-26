@@ -1,6 +1,6 @@
 package Java0016OopsConceptAbstraction;
 
-public class AbstractNonAbstractMethodBikeExample {
+public class AbstractNonAbstractMethodBikeExample{
 
 	public static void main(String args[]){  
 		Bike1 obj = new Honda();  
@@ -9,10 +9,9 @@ public class AbstractNonAbstractMethodBikeExample {
 	}
 }
 
-
 //Example of an abstract class that has abstract and non-abstract methods  
 abstract class Bike1{
-	Bike1(){
+	Bike1() {
 		System.out.println("bike is created");
 	}  
 
@@ -22,7 +21,6 @@ abstract class Bike1{
 		System.out.println("gear changed");
 	}  
 }
-
 
 //Creating a Child class which inherits Abstract class  
 class Honda extends Bike1{  

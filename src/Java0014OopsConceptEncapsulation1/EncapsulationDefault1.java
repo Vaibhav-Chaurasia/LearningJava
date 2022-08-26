@@ -6,5 +6,5 @@ public class EncapsulationDefault1 {
 	} 
 }
 
-/* the scope of class A and its method msg() is default so it cannot be accessed from outside the package.
+/* the scope of class EncapsulationDefault1 and its method msg() is default so it cannot be accessed from outside the package.
  */

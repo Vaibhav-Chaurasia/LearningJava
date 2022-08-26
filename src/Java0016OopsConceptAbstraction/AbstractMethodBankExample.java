@@ -11,7 +11,6 @@ public class AbstractMethodBankExample {
 	}
 }
 
-
 abstract class Bank{    
 	abstract int getRateOfInterest();    
 }

@@ -10,7 +10,7 @@ public class StringToObjectAndViceVersa {
 
 		//Declaring String variable  
 		String s = "hello";  
-		Object obj = s;  
+		Object obj = s;
 		System.out.println(obj); 
 
 

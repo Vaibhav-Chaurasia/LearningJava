@@ -4,7 +4,7 @@ public class EncapsulationJavaAccessModifiersWithMethodOverriding extends A6{
 
 	void msg(){
 		System.out.println("Hello java");
-	}//C.T.Error  
+	} //C.T.Error  
 
 	public static void main(String args[]){  
 		EncapsulationJavaAccessModifiersWithMethodOverriding obj=new EncapsulationJavaAccessModifiersWithMethodOverriding();  

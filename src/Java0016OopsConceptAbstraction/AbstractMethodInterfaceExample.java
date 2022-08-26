@@ -1,7 +1,7 @@
 package Java0016OopsConceptAbstraction;
 
 public class AbstractMethodInterfaceExample {
-	
+
 	/*The abstract class can also be used to provide some implementation of the interface. 
 	 * In such case, the end user may not be forced to override all the methods of the interface.
 	 * */
@@ -14,7 +14,6 @@ public class AbstractMethodInterfaceExample {
 		a.d();  
 	}
 }
-
 
 interface A{  
 	void a();

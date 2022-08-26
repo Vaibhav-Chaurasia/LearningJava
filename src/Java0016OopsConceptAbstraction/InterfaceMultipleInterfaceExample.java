@@ -11,7 +11,6 @@ public class InterfaceMultipleInterfaceExample implements Printable1, Showable{
 
 	public static void main(String args[]){  
 		InterfaceMultipleInterfaceExample obj = new InterfaceMultipleInterfaceExample();  
-
 		obj.print();  
 		obj.show();  
 	}
