@@ -13,6 +13,6 @@ public class EncapsulationExample {
 
 	//setter method for name  
 	public void setName(String name){  
-		this.name=name; 
+		this.name = name; 
 	}
 }
