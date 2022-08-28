@@ -1,6 +1,6 @@
 package Java0018Arrays;
 
-public class CloingOfArray {
+public class CloningOfArray {
 	public static void main(String args[]){  
 		
 		int arr[] = {33, 3, 4, 5};  

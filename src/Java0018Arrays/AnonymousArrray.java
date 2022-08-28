@@ -11,6 +11,6 @@ public class AnonymousArrray {
 	}  
 
 	public static void main(String args[]){  
-		printArray(new int[]{10, 22, 44, 66});//passing anonymous array to method  
+		printArray(new int[]{10, 22, 44, 66}); //passing anonymous array to method  
 	}
 }

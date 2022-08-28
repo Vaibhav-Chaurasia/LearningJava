@@ -16,8 +16,8 @@ public class PassingArrayToMethod {
 
 	public static void main(String args[]){  
 
-		int a[] = {33, 3, 4, 5};//declaring and initializing an array  
-		
-		min(a);//passing array to method  
+		int a[] = {33, 3, 4, 5}; //declaring and initializing an array  
+
+		min(a); //passing array to method  
 	}
 }
