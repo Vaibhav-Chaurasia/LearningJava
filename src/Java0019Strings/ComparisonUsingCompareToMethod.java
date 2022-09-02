@@ -14,8 +14,8 @@ public class ComparisonUsingCompareToMethod {
 		String s3 = "Ratan";  
 
 		System.out.println(s1.compareTo(s2)); //0  
-		System.out.println(s1.compareTo(s3)); //1(because s1 > s3)  
-		System.out.println(s3.compareTo(s1)); //-1(because s3 < s1 )
+		System.out.println(s1.compareTo(s3)); //1 (because s1 > s3 and formula is s1-s3)  
+		System.out.println(s3.compareTo(s1)); //-1 (because s3 < s1 and formula is s3-s1)
 		/*---------------------------------------------------------------------------------------------*/
 
 
@@ -59,7 +59,6 @@ public class ComparisonUsingCompareToMethod {
 		int no =  str.compareTo("India is my country.");  
 
 		System.out.println(no);
-
 		/*---------------------------------------------------------------------------------------------*/
 
 
@@ -70,7 +69,7 @@ public class ComparisonUsingCompareToMethod {
 		Players ronaldo = new Players("Ronaldo");  
 		Players sachin = new Players("Sachin");  
 		Players messi = new Players("Messi");  
-		
+
 		ArrayList<Players> al = new ArrayList<>();  
 
 		al.add(ronaldo);  
@@ -80,7 +79,7 @@ public class ComparisonUsingCompareToMethod {
 		// performing binary search on the list al  
 		Collections.binarySearch(al, "Sehwag", null);  
 	}
-		/*---------------------------------------------------------------------------------------------*/
+	/*-------------------------------------------------------------------------------------------------*/
 
 }
 

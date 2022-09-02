@@ -5,11 +5,11 @@ public class ConcatenationUsingStringJoinMethod {
 	public static void main(String args[])  
 	{
 		/*-------------------------------------------------------------------------------------------------*/
-		String s1 = new String("Hello");    //String 1  
-		String s2 = new String(" World");    //String 2  
-		String s = String.join("", s1, s2);   //String 3 to store the result  
+		String s1 = new String("Hello"); //String 1  
+		String s2 = new String(" World"); //String 2  
+		String s = String.join("", s1, s2); //String 3 to store the result  
 
-		System.out.println(s.toString());  //Displays result
+		System.out.println(s.toString()); //Displays result
 		/*In the above code snippet, the String object s stores the result of 
 		 * String.join("",s1,s2) method. A separator is specified inside quotation marks 
 		 * followed by the String objects or array of String objects.
@@ -18,14 +18,14 @@ public class ConcatenationUsingStringJoinMethod {
 
 		/*-------------------------------------------------------------------------------------------------*/
 		//Join Example
-		String joinString1 = String.join("-","welcome","to","javatpoint");  
+		String joinString1 = String.join("-", "welcome", "to", "javatpoint");  
 		System.out.println(joinString1);
 		/*-------------------------------------------------------------------------------------------------*/
 
 
 		/*-------------------------------------------------------------------------------------------------*/
 		// delimiter to format the string as we did in the below example to show the date and time
-		String date = String.join("/","25","06","2018");    
+		String date = String.join("/", "25", "06", "2018");    
 		System.out.print(date);    
 		String time = String.join(":", "12", "10", "10");  
 		System.out.println(" " + time);

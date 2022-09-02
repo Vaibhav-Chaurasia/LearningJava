@@ -6,8 +6,8 @@ public class MethodIsEmpty {
 	public static void main(String[] args) {
 		/*-----------------------------------------------------------------------------------------------*/
 		//Is Empty Example
-		String s1="";  
-		String s2="javatpoint";  
+		String s1 = "";  
+		String s2 = "javatpoint";  
 
 		System.out.println(s1.isEmpty());  
 		System.out.println(s2.isEmpty());
@@ -17,8 +17,8 @@ public class MethodIsEmpty {
 
 		/*-----------------------------------------------------------------------------------------------*/
 		//Is Empty Example using if else statement using or operator
-		String s3="";    
-		String s4="Javatpoint";             
+		String s3 = "";    
+		String s4 = "Javatpoint";             
 
 		// Either length is zero or isEmpty is true  
 		if(s3.length() == 0 || s3.isEmpty())  

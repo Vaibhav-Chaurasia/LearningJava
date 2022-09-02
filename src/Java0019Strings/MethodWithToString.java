@@ -11,7 +11,7 @@ public class MethodWithToString {
 		this.city = city;  
 	}  
 
-	public String toString(){//overriding the toString() method  
+	public String toString(){ //overriding the toString() method  
 		return rollno + " " + name + " " + city;  
 	}  
 
@@ -19,8 +19,8 @@ public class MethodWithToString {
 		MethodWithToString s1 = new MethodWithToString(101, "Raj", "lucknow");  
 		MethodWithToString s2 = new MethodWithToString(102, "Vijay", "ghaziabad");  
 
-		System.out.println(s1);//compiler writes here s1.toString()  
-		System.out.println(s2);//compiler writes here s2.toString()  
+		System.out.println(s1); //compiler writes here s1.toString()  
+		System.out.println(s2); //compiler writes here s2.toString()  
 	}
 }
 

@@ -77,7 +77,5 @@ public class MethodTrim {
 			System.out.println("The string contains only white spaces \n");     
 		}
 		/*--------------------------------------------------------------------------------------------------*/
-
 	}
-
 }

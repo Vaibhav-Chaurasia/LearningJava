@@ -7,8 +7,8 @@ public class ComparisonUsingEqualsToMethod {
 		String s3 = new String("Sachin");  
 		String s4 = "Saurav";  
 
-		System.out.println(s1.equals(s2));//true  
-		System.out.println(s1.equals(s3));//true  
-		System.out.println(s1.equals(s4));//false
+		System.out.println(s1.equals(s2)); //true  
+		System.out.println(s1.equals(s3)); //true  
+		System.out.println(s1.equals(s4)); //false
 	}
 }

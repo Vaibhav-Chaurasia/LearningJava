@@ -3,6 +3,7 @@ package Java0019Strings;
 import java.util.ArrayList;
 
 public class ComparisonUsingEqualsToMethod2 {
+	@SuppressWarnings({ "unlikely-arg-type", "deprecation" })
 	public static void main(String args[]){
 
 		/*--------------------------------------------------------------------------------------*/
@@ -10,8 +11,8 @@ public class ComparisonUsingEqualsToMethod2 {
 		String s1 = "Sachin";  
 		String s2 = "SACHIN";  
 
-		System.out.println(s1.equals(s2));//false  
-		System.out.println(s1.equalsIgnoreCase(s2));//true
+		System.out.println(s1.equals(s2)); //false  
+		System.out.println(s1.equalsIgnoreCase(s2)); //true
 		/*--------------------------------------------------------------------------------------*/
 
 		/*--------------------------------------------------------------------------------------*/
@@ -21,7 +22,7 @@ public class ComparisonUsingEqualsToMethod2 {
 		String s4 = "javatpoint";    
 		String s5 = "Javatpoint";  
 
-		System.out.println(s3.equals(s4)); // True because content is same    
+		System.out.println(s3.equals(s4)); //True because content is same    
 
 		if (s1.equals(s5)) {  
 			System.out.println("both strings are equal");  
@@ -57,30 +58,30 @@ public class ComparisonUsingEqualsToMethod2 {
 		String str4 = "45.89";  
 		String str5 = "false";  
 
-		@SuppressWarnings("deprecation")
+		
 		Character c = new Character('a');  
-		@SuppressWarnings("deprecation")
+
 		Integer i = new Integer(123);  
-		@SuppressWarnings("deprecation")
+
 		Float f = new Float(45.89);  
 		Boolean b = new Boolean(false);  
 
-		// reference of the Character object is passed  
+		//reference of the Character object is passed  
 		System.out.println(str2.equals(c));  
 
-		// reference of the Integer object is passed  
+		//reference of the Integer object is passed  
 		System.out.println(str3.equals(i));  
 
-		// reference of the Float object is passed  
+		//reference of the Float object is passed  
 		System.out.println(str4.equals(f));  
 
-		// reference of the Boolean object is passed  
+		//reference of the Boolean object is passed  
 		System.out.println(str5.equals(b));  
 
-		// the above print statements show a false value because  
-		// we are comparing a String with different data types  
-		// To achieve the true value, we have to convert   
-		// the different data types into the string using the toString() method  
+		//the above print statements show a false value because  
+		//we are comparing a String with different data types  
+		//To achieve the true value, we have to convert   
+		//the different data types into the string using the toString() method  
 		System.out.println(str2.equals(c.toString()));  
 		System.out.println(str3.equals(i.toString()));  
 		System.out.println(str4.equals(f.toString()));  

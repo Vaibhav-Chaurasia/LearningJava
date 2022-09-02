@@ -7,20 +7,20 @@ public class MethodReplaceAll {
 		/*--------------------------------------------------------------------------------------------------*/
 		//Java String replaceAll() example: replace character
 		String s1 = "javatpoint is a very good website";  
-		String replaceString = s1.replaceAll("a", "e");//replaces all occurrences of "a" to "e"  
+		String replaceString = s1.replaceAll("a", "e"); //replaces all occurrences of "a" to "e"  
 
 		System.out.println(replaceString);
 		/*--------------------------------------------------------------------------------------------------*/
 
 
+		
 		/*--------------------------------------------------------------------------------------------------*/
 		//replace all the occurrences of a single word or set of words.
 		String s2 = "My name is Juan. My name is Bob. My name is Sonoo.";  
-		String replaceString1 = s2.replaceAll("is", "was");//replaces all occurrences of "is" to "was"  
+		String replaceString1 = s2.replaceAll("is", "was"); //replaces all occurrences of "is" to "was"  
 
 		System.out.println(replaceString1);
 		/*--------------------------------------------------------------------------------------------------*/
-
 
 
 
@@ -42,6 +42,7 @@ public class MethodReplaceAll {
 		System.out.println(str);  
 
 		String regex = "";  
+		
 		// adding a white space before and after every character of the input string.  
 		str = str.replaceAll(regex, " ");  
 

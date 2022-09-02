@@ -5,7 +5,7 @@ public class MethodContains {
 	public static void main(String[] args) {
 		/*---------------------------------------------------------------------------------------------------*/
 		//String contains() Method 
-		String name="what do you know about me";  
+		String name = "what do you know about me";  
 		System.out.println(name.contains("do you know"));  
 		System.out.println(name.contains("about"));  
 		System.out.println(name.contains("hello"));
@@ -18,6 +18,7 @@ public class MethodContains {
 		String str = "Hello Javatpoint readers";  
 		boolean isContains = str.contains("Javatpoint");  
 		System.out.println(isContains);  
+		
 		// Case Sensitive  
 		System.out.println(str.contains("javatpoint")); // false
 		/*---------------------------------------------------------------------------------------------------*/
@@ -51,7 +52,6 @@ public class MethodContains {
 		{  
 			System.out.println("Inside the else block");  
 		}
-
 		/*---------------------------------------------------------------------------------------------------*/
 	}
 }

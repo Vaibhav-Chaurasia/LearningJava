@@ -7,7 +7,7 @@ package Java0018Arrays;
 public class ArrayExample {
 	public static void main(String args[]){  
 
-		int a[] = new int[5];//declaration and instantiation  
+		int a[] = new int[5]; //declaration and instantiation  
 		a[0] = 10; //initialization  
 		a[1] = 20;  
 		a[2] = 70;  

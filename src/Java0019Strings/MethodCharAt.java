@@ -18,7 +18,7 @@ public class MethodCharAt {
 		int strLength = str.length();      
 
 		// Fetching first character  
-		System.out.println("Character at 0 index is: "+ str.charAt(0));      
+		System.out.println("Character at 0 index is: " + str.charAt(0));      
 
 		// The last Character is present at the string length-1 index  
 		System.out.println("Character at last index is: " + str.charAt(strLength-1));
@@ -45,6 +45,7 @@ public class MethodCharAt {
 				count++;  
 			}  
 		}  
+		
 		System.out.println("Frequency of t is: " + count);
 		/*---------------------------------------------------------------------------------------------*/
 		

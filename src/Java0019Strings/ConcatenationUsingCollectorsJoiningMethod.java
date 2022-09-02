@@ -10,7 +10,7 @@ public class ConcatenationUsingCollectorsJoiningMethod {
 		List<String> liststr = Arrays.asList("abc", "pqr", "xyz"); //List of String array  
 		String str = liststr.stream().collect(Collectors.joining(", ")); //performs joining operation  
 
-		System.out.println(str.toString());  //Displays result  
+		System.out.println(str.toString()); //Displays result  
 	}
 }
 

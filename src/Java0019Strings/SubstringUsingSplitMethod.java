@@ -13,6 +13,6 @@ public class SubstringUsingSplitMethod {
 	}
 }
 
-/*we have used the split() method. It accepts an argument \\. 
+/* we have used the split() method. It accepts an argument \\. 
  * that checks a in the sentence and splits the string into another string. 
  * It is stored in an array of String objects sentences.*/
