@@ -15,7 +15,7 @@ public class TreeSetExample {
 
 		//traversing elements  
 		Iterator<String> itr = set.iterator();  
-		while(itr.hasNext()){  
+		while(itr.hasNext()) {  
 			System.out.println(itr.next());  
 		}
 	}

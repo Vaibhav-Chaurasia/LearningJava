@@ -18,7 +18,7 @@ public class ArrayListSizeAndCapacity {
 }
 
 
-/*Explanation for 1st code
+/* Explanation for 1st code
  * The output makes sense as we have not done anything with the array list.
  * */
 
@@ -38,7 +38,7 @@ public class ArrayListSizeAndCapacity {
  * because the default capacity of the array list is 10. In the second case, we have explicitly mentioned that 
  * the capacity of the array list is 10.*/
 
-/*Note: There is no any standard method to tell how the capacity increases in the array list. 
+/* Note: There is no any standard method to tell how the capacity increases in the array list. 
  * In fact, the way the capacity increases vary from one GDK version to the other version.
  *  Therefore, it is required to check the way capacity increases code is implemented in the GDK. 
  *  There is no any pre-defined method in the ArrayList class that returns the capacity of the array list. 

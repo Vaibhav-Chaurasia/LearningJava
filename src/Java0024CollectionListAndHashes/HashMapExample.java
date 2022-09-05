@@ -13,14 +13,14 @@ public class HashMapExample {
 		 * The Map.Entry interface contains the getKey() and getValue() methods. 
 		 * But, we should call the entrySet() method of Map interface to get the instance of Map.Entry.*/
 		HashMap<Integer, String> map = new HashMap<Integer, String>(); //Creating HashMap    
-		map.put(1,"Mango");  //Put elements in Map  
-		map.put(2,"Apple");    
-		map.put(3,"Banana");   
-		map.put(4,"Grapes");   
+		map.put(1, "Mango"); //Put elements in Map  
+		map.put(2, "Apple");    
+		map.put(3, "Banana");   
+		map.put(4, "Grapes");   
 
 		System.out.println("Iterating Hashmap...");  
 		for(@SuppressWarnings("rawtypes") Map.Entry m : map.entrySet()){    
-			System.out.println(m.getKey()+" "+m.getValue());    
+			System.out.println(m.getKey() + " " + m.getValue());    
 		}
 	}
 }

@@ -12,12 +12,11 @@ public class ArrayListExample {
 		list.add("Vijay");  
 		list.add("Ravi");  
 		list.add("Ajay");  
-		
+
 		//Traversing list through Iterator  
 		Iterator itr = list.iterator();  
-		while(itr.hasNext()){  
+		while(itr.hasNext()) {  
 			System.out.println(itr.next());  
 		}
 	}
-
 }

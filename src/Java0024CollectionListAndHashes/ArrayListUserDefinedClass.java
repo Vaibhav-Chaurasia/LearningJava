@@ -22,7 +22,7 @@ public class ArrayListUserDefinedClass {
 		Iterator itr = al.iterator();  
 
 		//traversing elements of ArrayList object  
-		while(itr.hasNext()){  
+		while(itr.hasNext()) {  
 			Student st = (Student)itr.next();  
 			System.out.println(st.rollno + " " + st.name + " " + st.age);  
 		}

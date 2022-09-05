@@ -20,11 +20,11 @@ public class HashTableBookExample {
 		map.put(3, b3);  
 
 		//Traversing map  
-		for(Map.Entry<Integer, Book1> entry:map.entrySet()){    
+		for(Map.Entry<Integer, Book1> entry : map.entrySet()){    
 			int key = entry.getKey();  
 			Book1 b = entry.getValue();  
 			
-			System.out.println(key + " Details:");  
+			System.out.println(key + "." + " Details - ");  
 			System.out.println(b.id + " " + b.name + " " + b.author + " " + b.publisher + " " + b.quantity);   
 		}
 	}

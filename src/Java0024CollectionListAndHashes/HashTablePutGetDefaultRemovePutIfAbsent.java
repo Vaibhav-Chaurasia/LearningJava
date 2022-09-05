@@ -7,14 +7,14 @@ public class HashTablePutGetDefaultRemovePutIfAbsent {
 	public static void main(String args[]){  
 
 		/*-----------------------------------------Simple Put Example------------------------------------------*/
-		Hashtable<Integer,String> hm = new Hashtable<Integer,String>();  
+		Hashtable<Integer, String> hm = new Hashtable<Integer, String>();  
 
 		hm.put(100, "Amit");  
 		hm.put(102, "Ravi");  
 		hm.put(101, "Vijay");  
 		hm.put(103, "Rahul");  
 
-		for(@SuppressWarnings("rawtypes") Map.Entry m:hm.entrySet()){  
+		for(@SuppressWarnings("rawtypes") Map.Entry m : hm.entrySet()){  
 			System.out.println(m.getKey() + " " + m.getValue());  
 		}
 		/*-----------------------------------------------------------------------------------------------------*/

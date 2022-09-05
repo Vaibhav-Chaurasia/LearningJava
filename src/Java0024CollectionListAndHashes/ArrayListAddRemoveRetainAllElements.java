@@ -41,7 +41,7 @@ public class ArrayListAddRemoveRetainAllElements {
 
 		/*------------------------Deleting Elements from Array list using different methods-------------------------------*/
 		System.out.println("\n");
-		System.out.println("An initial list of elements: "+al);   
+		System.out.println("An initial list of elements: " + al);   
 
 		//Removing specific element from arraylist  
 		al.remove("Vijay");  
@@ -77,7 +77,7 @@ public class ArrayListAddRemoveRetainAllElements {
 
 		/*------------------------Retain All Elements from Array list using different methods-------------------------------*/
 		System.out.println("\n");
-		ArrayList<String> al5=new ArrayList<String>();  
+		ArrayList<String> al5 = new ArrayList<String>();  
 		al5.add("Ravi");  
 		al5.add("Vijay");  
 		al5.add("Ajay");
@@ -87,11 +87,11 @@ public class ArrayListAddRemoveRetainAllElements {
 		al6.add("Hanumat");
 
 		al5.retainAll(al6);  
-		System.out.println("iterating the elements after retaining the elements of al6");  
+		System.out.println("Iterating the elements after retaining the elements of al6");  
 
 		@SuppressWarnings("rawtypes")
 		Iterator itr = al5.iterator();  
-		while(itr.hasNext()){  
+		while(itr.hasNext()) {  
 			System.out.println(itr.next());
 		}
 		/*----------------------------------------------------------------------------------------------------------------*/

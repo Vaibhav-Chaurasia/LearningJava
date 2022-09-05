@@ -19,7 +19,7 @@ public class ListBookExample {
 		list.add(b3);  
 
 		//Traversing list  
-		for(Book2 b : list){  
+		for(Book2 b : list) {  
 			System.out.println(b.id + " " + b.name + " " + b.author + " " + b.publisher + " " + b.quantity);  
 		}
 	}

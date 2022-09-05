@@ -15,7 +15,7 @@ public class StackExample {
 		stack.pop();  
 
 		Iterator<String> itr = stack.iterator();  
-		while(itr.hasNext()){  
+		while(itr.hasNext()) {  
 			System.out.println(itr.next());
 		}
 	}

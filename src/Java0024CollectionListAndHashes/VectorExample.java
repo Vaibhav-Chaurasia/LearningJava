@@ -13,7 +13,7 @@ public class VectorExample {
 		v.add("Garima");  
 		
 		Iterator<String> itr = v.iterator();  
-		while(itr.hasNext()){  
+		while(itr.hasNext()) {  
 			System.out.println(itr.next()); 
 		}
 	}
