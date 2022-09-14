@@ -13,6 +13,7 @@ the system generated message for that exception.
 
 public class NestedTryCatch {
 	public static void main(String args[]){   
+		
 		//outer try block   
 		try{    
 			//inner try block 1  
@@ -30,10 +31,10 @@ public class NestedTryCatch {
 
 			//inner try block 2  
 			try{    
-				int a[]=new int[5];    
+				int a[] = new int[5];    
 
 				//assigning the value out of array bounds  
-				a[5]=4;    
+				a[5] = 4;    
 			}  
 
 			//catch block of inner try block 2  

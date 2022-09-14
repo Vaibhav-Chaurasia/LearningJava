@@ -6,6 +6,7 @@ package Java0020ExceptionalHandling;
 
 //class that uses custom exception InvalidAgeException
 public class CustomExceptionMessage {
+	
 	// method to check the age  
 	static void validate (int age) throws InvalidAgeException{    
 		if(age < 18){  
@@ -42,8 +43,7 @@ public class CustomExceptionMessage {
 @SuppressWarnings("serial")
 class InvalidAgeException  extends Exception  
 {  
-	public InvalidAgeException (String str)  
-	{  
+	public InvalidAgeException (String str) {  
 		// calling the constructor of parent Exception  
 		super(str);  
 	}  

@@ -5,13 +5,11 @@ public class CustomExceptionMessageWithNull {
 
 	public static void main(String args[])  
 	{  
-		try  
-		{  
+		try {  
 			// throw an object of user defined exception  
 			throw new MyCustomException();  
 		}  
-		catch (MyCustomException ex)  
-		{  
+		catch (MyCustomException ex) {  
 			System.out.println("Caught the exception");  
 			System.out.println(ex.getMessage());  
 		}  
@@ -22,7 +20,6 @@ public class CustomExceptionMessageWithNull {
 
 @SuppressWarnings("serial")
 //class representing custom exception  
-class MyCustomException extends Exception  
-{  
+class MyCustomException extends Exception {  
 
 }

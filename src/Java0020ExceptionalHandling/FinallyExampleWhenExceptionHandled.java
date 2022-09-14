@@ -1,7 +1,7 @@
 package Java0020ExceptionalHandling;
 
 public class FinallyExampleWhenExceptionHandled {
-	public static void main(String args[]){   
+	public static void main(String args[]) {   
 
 		try {    
 
@@ -13,7 +13,7 @@ public class FinallyExampleWhenExceptionHandled {
 		}   
 
 		//handles the Arithmetic Exception / Divide by zero exception  
-		catch(ArithmeticException e){  
+		catch(ArithmeticException e) {  
 			System.out.println("Exception handled");  
 			System.out.println(e);  
 		}   

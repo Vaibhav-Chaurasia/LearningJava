@@ -3,20 +3,21 @@ package Java0020ExceptionalHandling;
 public class TryCatchResolvingIssueInCatch {
 
 	public static void main(String[] args) {  
-		int i=50;  
-		int j=0;  
+		int i = 50;  
+		int j = 0;
+		
 		@SuppressWarnings("unused")
 		int data;  
 		try  
 		{  
-			data=i/j; //may throw exception   
+			data = i/j; //may throw exception   
 		}  
 
 		// handling the exception  
 		catch(Exception e)  
 		{  
 			// resolving the exception in catch block  
-			System.out.println(i/(j+2));  
+			System.out.println(i / (j + 2));  
 		}  
 	}
 }

@@ -2,7 +2,7 @@ package Java0020ExceptionalHandling;
 
 public class FinallyExampleWhenExceptionNotOccurs {
 	public static void main(String args[]){    
-		try{    
+		try {    
 			//below code do not throw any exception  
 			int data = 25/5;    
 			System.out.println(data);    

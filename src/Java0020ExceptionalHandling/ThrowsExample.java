@@ -21,7 +21,7 @@ public class ThrowsExample {
 	}  
 
 	public static void main(String args[]){  
-		ThrowsExample obj=new ThrowsExample();  
+		ThrowsExample obj = new ThrowsExample();  
 		obj.p();  
 		System.out.println("normal flow...");  
 	}

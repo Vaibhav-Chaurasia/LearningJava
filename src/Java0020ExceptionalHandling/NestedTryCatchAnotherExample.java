@@ -18,7 +18,7 @@ public class NestedTryCatchAnotherExample {
 
 				// inner try block 2  
 				try {  
-					int arr[] = { 1, 2, 3, 4 };  
+					int arr[] = {1, 2, 3, 4};  
 
 					//printing the array element out of its bounds  
 					System.out.println(arr[10]);  
